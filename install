@@ -1,0 +1,17 @@
+RTX 3060
+
+ubuntu 24.04
+
+1. nvidia driver 575
+sudo apt install nvidia-driver-575
+
+2. cuda 12.9
+
+3. cuDNN
+
+4. git
+
+5. Gstreamer
+
+6. Docker
+
