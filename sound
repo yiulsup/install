@@ -1,0 +1,5 @@
+arecord -D plughw:1,0 -f S16_LE -c1 -r 44100 -t wav mono_record.wav
+arecord -D plughw:1,0 -f cd -t wav -d 10 -r 44100 -c 1 stero_recording.wav
+aplay mono_record.wav
+
+
