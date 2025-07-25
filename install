@@ -6,13 +6,24 @@ ubuntu 24.04
 sudo apt install nvidia-driver-575
 
 2. cuda 12.9
+wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
+sudo sh cuda_12.9.1_575.57.08_linux.run
 
-3. cuDNN
+3. cuDNN 9.11
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.debsudo 
+dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cudnn
 
 4. git
 sudo apt install git
 
 5. Gstreamer
+sudo apt install gstreamer1.0-tools gstreamer1.0-plugins-base
+sudo apt install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav
+sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+sudo apt install libgstreamer-plugins-good1.0-dev libgstreamer-plugins-bad1.0-dev
+sudo apt install gstreamer1.0-libav gstreamer1.0-alsa gstreamer1.0-pulseaudio alsa-utils pulseaudio
 
 6. Docker
 
