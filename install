@@ -10,8 +10,13 @@ sudo apt install nvidia-driver-575
 3. cuDNN
 
 4. git
+sudo apt install git
 
 5. Gstreamer
 
 6. Docker
+
+7. VS Code
+sudo apt install snap
+sudo snap install code --classic
 
