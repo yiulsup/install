@@ -33,4 +33,13 @@ sudo snap install code --classic
 
 8. LabelImg
 pip3 install pyqt5 lxml
-pip3 install labelImg
+git clone https://github.com/heartexlabs/labelImg.git
+cd labelImg
+pip3 install -r requirements/requirements-linux-python3.txt
+in here some error happens, however after below command success, it will be good
+pip3 install pyqt5 lxml
+pyrcc5 -o libs/resources.py resources.qrc
+python3 labelImg.py
+
+
+
