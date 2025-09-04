@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/yiulsup/install.git
+git add . or git add file.name
+git commit -m "your commit message"
+git push -u origin main
+
